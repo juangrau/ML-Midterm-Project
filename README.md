@@ -1,2 +1,8 @@
-# ML-Midterm-Project
-Data Talks Club - Machine Learning Zoomcamp - Midterm project
+# Data Talks Club - Machine Learning Zoomcamp - Midterm project
+
+# Project: Bank Marketing
+
+
+
+
+
