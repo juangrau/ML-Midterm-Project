@@ -24,8 +24,8 @@ def predict():
     go_mkt = y_pred >= 0.5
     
     result = {
-        'go_mkt_probability': float(y_pred),
-        'go_mkt': bool(go_mkt)
+        'mkt_success_proba': float(y_pred),
+        'mkt_success': bool(go_mkt)
     }
 
     return jsonify(result)
