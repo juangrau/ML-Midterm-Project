@@ -1,7 +1,16 @@
 import requests
 
 '''
-Description of the Script
+Test Script for Telemarketing
+
+Below you can find a sample customer that will get a prediction if a telemarketing campaign will succeed or not.
+
+You can tweak the values of this customer to get a positive or negative anwer from the prediction service, 
+for this the most important features are:
+- age: Play with values from 20 to 50 and you will see the difference
+- poutcome: Play with these values: "failure","nonexistent","success"
+- previous: Play with values from 0 to 10
+
 '''
 
 customer = {
@@ -18,7 +27,7 @@ customer = {
     'campaign': 1,
     'pdays': 0,
     'previous': 0,
-    'poutcome': 'nonexistent',
+    'poutcome': 'success',
     'emp_var_rate': 1.4,
     'cons_price_idx': 93.444,
     'cons_conf_idx': -36.1,
