@@ -1,7 +1,7 @@
 import requests
 
 '''
-Test Script for Telemarketing
+Test Script for Telemarketing Campaign Success Prediction Model
 
 Below you can find a sample customer that will get a prediction if a telemarketing campaign will succeed or not.
 
